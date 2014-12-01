@@ -1,0 +1,112 @@
+
+/* LOGO UND NAVIGATION */
+
+/* Hintergrund vom Menü */
+.bg-main {
+  background: white;
+  border: 3px solid black;
+}
+
+/* Layout des Menüs */
+#wrapper {
+  margin: 0 auto; 
+  width: 960px;
+}
+.header {
+  position: relative;
+  height: 180px;
+  width: 870px;
+}
+
+/* logo */
+img#logo {
+  position: absolute;
+  left:  20px;
+  padding-left: 250px;
+}
+
+/* Überschrift */
+.title {
+  color: black;
+  position: absolute;
+  top:  10px;
+  left:  250px;
+}
+
+.title{
+  display: inline;  
+  list-style: none;
+  margin-right: 10px;
+}
+
+/* navigation */
+.header .nav {
+  color: black;
+  position: absolute;
+  top:  100px;
+  left:  445px;
+}
+
+.header .nav li{
+  display: inline;  
+  list-style: none;
+  margin-right: 10px;
+    
+}
+
+/* ELEMENTE DER SEITE */
+
+/* Schrift-Hovering */
+a {
+  color: black;
+}
+
+a:hover {
+  color: red; 
+}
+
+div {
+  padding: 10px 40px; 
+  width: 1250px;
+  border-radius: 3px;
+            }
+
+body{
+	font-family: 'Arial';
+	background-image: url("old_paper.jpg");
+	background-attachment: fixed;
+	background-position: center;
+	background-repeat: no-repeat;
+            }
+p   {
+	padding-top: 25px;
+  padding-right: 50px;
+  padding-bottom: 25px;
+  padding-left: 50px;
+            }   
+
+h2  {
+	color: white;
+	text-align: center;
+		    }
+
+strong {
+	color: red;
+		   }
+
+h1, h4 {
+  text-align: center;
+           }
+
+h3 {
+  color:blue;
+  text-align:center;
+		   }
+
+p  {
+  font-family: 'Arial';
+  font-size: 18px;
+           }
+h1#white { 
+  color:white; 
+}

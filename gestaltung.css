@@ -115,8 +115,10 @@ a {
   color: black;
 }
 
-a:hover {
-  color: red; 
+@media not print{
+  a:hover {
+    color: red; 
+  }
 }
 
 div {

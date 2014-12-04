@@ -1,0 +1,25 @@
+* {
+ font-family:"times new roman",times,serif;
+ text-align:justify;
+ }
+ 
+p, .bg-main{
+ color:#000;
+ background-color:#fff;
+ }
+
+.header .nav {
+ display:none;   
+}
+
+body{
+ background-image: none;   
+}
+
+a[href]:after {
+ content:" <"attr(href)">";
+ color:#888;
+ background-color:inherit;
+ font-style:italic;
+ size:80%;
+}

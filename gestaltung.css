@@ -60,7 +60,7 @@ img#logo {
 .header {
 	position: relative;
 	height: 180px;
-	width: 870px;
+	width: 700px;
 }
 	
 /* navigation */
@@ -77,11 +77,10 @@ img#logo {
 }
 	
 .header .nav li{
-	display: inline;  
-	list-style: none;
 	margin-right: 10px;
 }
 }
+
 /*kleiner  */
 @media screen and (max-width: 580px) {
 .bg-main {

@@ -9,7 +9,7 @@
 
 /* Layout des Menüs */
 #wrapper {
-  margin: 0 auto; 
+  margin:auto; 
   width: 960px;
 }
 .header {
@@ -21,7 +21,7 @@
 /* logo */
 img#logo {
   position: absolute;
-  left:  20px;
+  left: 20px;
   padding-left: 250px;
 }
 
@@ -29,7 +29,7 @@ img#logo {
 .title {
   color: black;
   position: absolute;
-  top:  10px;
+  top:  10px;l
   left:  250px;
 }
 
@@ -51,9 +51,64 @@ img#logo {
   display: inline;  
   list-style: none;
   margin-right: 10px;
-    
 }
 
+/*responsiv  (head) */
+/*bildschirm */
+@media screen and (max-width: 767px){	
+
+.header {
+	position: relative;
+	height: 180px;
+	width: 870px;
+}
+	
+/* navigation */
+.header .nav {
+	position: absolute;
+	top: 100px;
+	left: 445px;
+}
+	
+.header .nav {
+	position: absolute;
+	top: 100px;
+	left: 445px;
+}
+	
+.header .nav li{
+	display: inline;  
+	list-style: none;
+	margin-right: 10px;
+}
+}
+/*kleiner  */
+@media screen and (max-width: 580px) {
+.bg-main {
+	border: 0px;
+}
+	
+.header {
+	position: relative;
+	height: 180px;
+	width: 870px;
+}
+	
+/*logo */
+img#logo {
+	position: absolute;
+	left: 5px;
+	padding-left: 150px;
+}
+
+/* Überschrift */
+.title {
+	position: absolute;
+	top: 10px;
+	left: 50px;
+
+
+/* responsiv ende */
 /* ELEMENTE DER SEITE */
 
 /* Schrift-Hovering */
@@ -69,7 +124,7 @@ div {
   padding: 10px 40px; 
   width: 1250px;
   border-radius: 3px;
-            }
+}
 
 body{
 	font-family: 'Arial';
@@ -88,25 +143,26 @@ p   {
 h2  {
 	color: white;
 	text-align: center;
-		    }
+}
 
 strong {
 	color: red;
-		   }
+}
 
 h1, h4 {
   text-align: center;
-           }
+	
+}
 
 h3 {
   color:blue;
   text-align:center;
-		   }
+}
 
 p  {
   font-family: 'Arial';
   font-size: 18px;
-           }
+}
 h1#white { 
   color:white; 
 }

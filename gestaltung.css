@@ -1,112 +1,62 @@
 
 /* LOGO UND NAVIGATION */
 
-/* Hintergrund vom Menü */
-.bg-main {
-  background: white;
-  border: 3px solid black;
-}
-
 /* Layout des Menüs */
-#wrapper {
-  margin:auto; 
-  width: 960px;
-}
-.header {
-  position: relative;
-  height: 180px;
-  width: 870px;
+
+header {
+    margin: 0 auto; 
+    width: 100%;
+    height: 80px;
+    border: 1px solid black;
+    position: fixed;
+    top: 0;
+    background-color: white;
 }
 
 /* logo */
-img#logo {
-  position: absolute;
-  left: 20px;
-  padding-left: 250px;
+#logo {
+  float: left;
+  padding-left: 35%;
+  height: 70px;
 }
 
 /* Überschrift */
-.title {
-  color: black;
-  position: absolute;
-  top:  10px;l
-  left:  250px;
-}
 
 .title{
   display: inline;  
   list-style: none;
-  margin-right: 10px;
+  margin-left: 20px;
 }
 
-/* navigation */
-.header .nav {
-  color: black;
-  position: absolute;
-  top:  100px;
-  left:  445px;
+section {
+  padding: 70px;
 }
 
-.header .nav li{
-  display: inline;  
-  list-style: none;
-  margin-right: 10px;
+nav li {
+  clear: left;
+  text-align: left;
+  display: inline-block;
+  margin-left: 20px;
+  font-style: none;
 }
+
 
 /*responsiv  (head) */
 /*bildschirm */
-@media screen and (max-width: 767px){	
+@media screen and (max-width: 767px){ 
 
-.header {
-	position: relative;
-	height: 180px;
-	width: 700px;
-}
-	
-/* navigation */
-.header .nav {
-	position: absolute;
-	top: 100px;
-	left: 445px;
-}
-	
-.header .nav {
-	position: absolute;
-	top: 100px;
-	left: 445px;
-}
-	
-.header .nav li{
-	margin-right: 10px;
-}
-}
 
 /*kleiner  */
 @media screen and (max-width: 580px) {
 .bg-main {
-	border: 0px;
-}
-	
-.header {
-	position: relative;
-	height: 180px;
-	width: 870px;
-}
-	
-/*logo */
-img#logo {
-	position: absolute;
-	left: 5px;
-	padding-left: 150px;
+  border: 0px;
 }
 
-/* Überschrift */
-.title {
-	position: absolute;
-	top: 10px;
-	left: 50px;
-
-
+h1 {
+  display: none;
+}
+}
+}
 /* responsiv ende */
 /* ELEMENTE DER SEITE */
 
@@ -121,38 +71,40 @@ a {
   }
 }
 
-div {
-  padding: 10px 40px; 
-  width: 1250px;
-  border-radius: 3px;
-}
 
 body{
-	font-family: 'Arial';
-	background-image: url("old_paper.jpg");
-	background-attachment: fixed;
-	background-position: center;
-	background-repeat: no-repeat;
-            }
+  font-family: 'Arial';
+  background-image: url("old_paper.jpg");
+  background-attachment: fixed;
+  background-position: center;
+  background-repeat: no-repeat;
+  text-align: center;
+     }
+
+header {
+  text-align: left;
+}
+
+
 p   {
-	padding-top: 25px;
+  padding-top: 25px;
   padding-right: 50px;
   padding-bottom: 25px;
   padding-left: 50px;
             }   
 
 h2  {
-	color: white;
-	text-align: center;
+  color: white;
+  text-align: center;
 }
 
 strong {
-	color: red;
+  color: red;
 }
 
 h1, h4 {
   text-align: center;
-	
+  
 }
 
 h3 {
@@ -164,6 +116,7 @@ p  {
   font-family: 'Arial';
   font-size: 18px;
 }
+
 h1#white { 
   color:white; 
 }

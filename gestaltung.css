@@ -100,8 +100,11 @@ p   {
             }   
 
 h2  {
-  color: white;
+  font-size: 3em;
+  color: #8F0000;
+  font-style: italic;
   text-align: center;
+  
 }
 
 strong {

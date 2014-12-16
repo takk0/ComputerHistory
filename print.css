@@ -27,3 +27,7 @@ a[href]:after {
 h1, h2, h3, h4{
  color:#000000;
 }
+
+p::first-letter{
+  color: #000000;
+  }

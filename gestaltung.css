@@ -59,7 +59,7 @@ nav{
     display:none;
 }
 
-#logo:target #menue{
+#logo:target nav{
     display: block;
 }
 

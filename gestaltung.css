@@ -43,6 +43,7 @@ nav li {
 }
 
 
+
 /*responsiv  (head) */
 /*bildschirm */
 @media screen and (max-width: 767px){ 
@@ -52,6 +53,14 @@ nav li {
 @media screen and (max-width: 580px) {
 .bg-main {
   border: 0px;
+}
+
+nav{
+    display:none;
+}
+
+#logo:target #menue{
+    display: block;
 }
 
 .title{

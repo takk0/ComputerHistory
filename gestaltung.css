@@ -38,6 +38,8 @@ nav li {
   display: inline-block;
   margin-left: 20px;
   font-style: none;
+  text-decoration: none;
+  text-underline: none;
 }
 
 
@@ -63,11 +65,15 @@ h1 {
 /* Schrift-Hovering */
 a {
   color: black;
+  text-decoration: none;
+  text-underline: none;
 }
 
 @media not print{
   a:hover {
     color: red; 
+    text-decoration: none;
+    text-underline: none;
   }
 }
 

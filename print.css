@@ -12,6 +12,10 @@ header nav {
  display:none;   
 }
 
+header{
+ border:none;
+}
+
 body{
  background-image: none;   
 }

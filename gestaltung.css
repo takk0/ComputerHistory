@@ -11,12 +11,14 @@ header {
     position: fixed;
     top: 0;
     background-color: white;
+
+
 }
 
 /* logo */
 #logo {
   float: left;
-  padding-left: 35%;
+  padding-left: 44%;
   height: 70px;
 }
 
@@ -105,12 +107,13 @@ a {
 
 body{
   font-family: 'Arial';
-  background-image: url("old_paper.jpg");
+  background-image: url("old_paper.png");
   background-attachment: fixed;
   background-position: center;
   background-repeat: no-repeat;
   text-align: center;
      }
+
 
 header {
   text-align: left;
@@ -119,10 +122,18 @@ header {
 
 p   {
   padding-top: 25px;
-  padding-right: 50px;
+  padding-right: 200px;
   padding-bottom: 25px;
-  padding-left: 50px;
+  padding-left: 200px;
             }   
+
+#text1 {
+  margin-left: 40px;
+}
+
+#text2 {
+  margin-left: 100px;
+}
 
 h2  {
   font-size: 3em;
@@ -159,4 +170,11 @@ p::first-letter{
 
 h1#white { 
   color:white; 
+}
+
+article dl dd {
+    padding-top: 25px;
+  padding-right: 200px;
+  padding-bottom: 25px;
+  padding-left: 200px;
 }
